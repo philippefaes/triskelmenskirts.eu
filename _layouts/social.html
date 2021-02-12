@@ -1,0 +1,6 @@
+{% for network in site.social %}
+<li>
+  <a href="{{site.social[network]}}" target="_blank" rel="noopener noreferrer">
+    <i title="{{network}}" class="fab fa-{{network}} sf-icon sf-icon-float-left sf-icon-small" style="font-size: large;"></i>
+  </a>
+{% endfor %}

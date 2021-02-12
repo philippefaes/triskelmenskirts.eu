@@ -1,0 +1,22 @@
+brand: Home
+
+navbar_inverse: True
+bootswatch: null # flatly, yeti, lumen,... 
+navbar_inverse: false 
+bootstrap: 3.3.4
+navbar_right_items: 1
+# google_analytics: UA-89086991-1
+# linkedin_analytics: UA-89086991-1
+cname: triskelmenskirts.eu
+copyright_years: 2020-2021
+social:
+    facebook:  https://www.facebook.com/Triskel-Men-Skirts-101568211930021
+    instagram: https://www.instagram.com/triskel_men_skirts/
+    pinterest: https://www.pinterest.com/triskel_men_skirts
+reflinks:
+    aboutme:
+        url: https://be.linkedin.com/in/philippefaes
+        title : About Philippe
+    mydice:
+        url: http://www.mydice.be
+        title : My Dice

@@ -1,0 +1,30 @@
+{% if item.thumbnail %}
+  <div class="col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-0 col-md-4" role="main">
+    <h4><a href="{{item.url}}" title="{{item.title}}">{{item.title|cutoff(35)}}</a>
+      {% if item.date|d %}
+      <br/><small>{{item.date|dateformat}}</small></h4>
+      {% endif %}
+    </h4>
+    {% if item.thumbnail %}
+    <a href="{{item.url}}">
+      <div class="crop">
+        <img title="{{item.title}}" src="{{item.thumbnail}}" alt="{{item.title}}">
+      </div>
+    </a>
+    {% endif %}
+    
+    
+    {% set teaser = item.teaser %}
+    {% if not teaser and item.layout == "quote" %} 
+      {% set teaser = item.title %}
+      {% if item.translation %}{% set teaser = teaser+" — "+item.translation %} {% endif %}
+    {% endif %}
+
+    {% if not teaser %} {% set teaser = item.body|cutoff(140) %} {% endif %}
+    
+    {% if teaser %}
+    <div class="teaser">{{teaser}}  <a href="{{item.url}}">Read more</a></div>
+    {% endif %}
+    
+  </div>
+{% endif %}
