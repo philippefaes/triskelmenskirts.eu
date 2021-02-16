@@ -1,0 +1,60 @@
+{% extends "_base.html" %}
+
+{% block body %}
+
+<div class="container">
+
+  {% block breadcrumbs %}
+  {% if this.breadcrumbs %}
+  <ol class="breadcrumb">
+    <li><a href="{{url_prefix + '/'}}">Home</a></li>
+      {% for bc in this.breadcrumbs[:-1] %}
+      <li><a href="{{bc.url}}">{{bc.title}}</a></li>
+      {% endfor %}
+      <li class="active">{{this.breadcrumbs[-1].title}}</li>
+  </ol>
+  {% endif %}
+  {% endblock %}
+
+  <div class="row">
+
+    <div class="content">
+      {% block content %}
+      <div class="col-md-3 " >
+        {% if this.prev %}
+        <ul class="pager">
+        <li class="previous"><a href="{{this.prev.url}}">&larr; {{this.prev.title}}</a></li>
+        </ul>
+        {% endif %}
+      </div>
+      <div class="col-md-6 " role="main">
+        <div role="main">
+        <img alt="{{this.title}}" src="{{this.thumbnail}}" title="{{this.title}} {{this.translation}}" class="quote">
+        <h4>{{this.title}}</h4>
+        <h4>{{this.translation}}</h4>
+        {{this.body}}
+        </div>
+      </div>
+      <div class="col-md-3 " >
+        {% if this.next %}
+        <ul class="pager">
+        <li class="previous"><a href="{{this.next.url}}">&rarr; {{this.next.title}}</a></li>
+        </ul>
+        {% endif %}
+      </div>
+      {% endblock %}
+    </div>
+
+  </div>
+
+  <div style="padding-top:30px">	
+    {% if this.comments %}
+      {% include 'comments.html' %}
+    {% endif %}
+  </div>
+  {% include 'footer.html' %}
+
+</div>
+
+{% endblock %}
+

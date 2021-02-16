@@ -4,7 +4,7 @@ navbar_inverse: True
 bootswatch: null # flatly, yeti, lumen,... 
 navbar_inverse: false 
 bootstrap: 3.3.4
-navbar_right_items: 1
+# navbar_right_items: 0
 # google_analytics: UA-89086991-1
 # linkedin_analytics: UA-89086991-1
 cname: triskelmenskirts.eu

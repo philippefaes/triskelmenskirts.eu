@@ -1,11 +1,11 @@
 ---
-title: Wie ben ik?
+title: Who am I?
 tagline: "— Philippe Faes —"
 menutitle: Wie
 layout: page
 comments: False
 thumbnail: /images/double_face_lijn.jpg
-teaser: Ondernemer en ingenieur — coach en pelgrim  
+teaser: Entrepreneur and engineer - coach and pilgrim 
 ---
 
 > Ondernemer en ingenieur, coach en pelgrim. <br/> 

@@ -1,0 +1,63 @@
+{% extends "_base.html" %}
+
+{% block body %}
+{% block jumbotron %}
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-offset-1 text-center">
+        <h1>{{this.title}}</h1>
+        <h2>{{this.tagline}}</h2>
+          <p>{{this.abstract}}</p>
+       </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+<div class="container">
+  <div class="row">
+    <div class="content">
+      {% block content %}
+      <div class="col-lg-12" role="main">
+        <div role="main">
+        {{this.body}}
+        </div>
+      </div>
+      {% endblock %}
+    </div>
+    
+    <div class="row">
+    <div class="col-lg-12 thumbnail-index" role="main">
+      {% if (this.content|excludefuture(this.excludefuture)|excludewithoutthumbnail).__len__() == 2 %}
+        <div class="col-md-2"> </div>
+      {% endif %}
+      {% for item in this.content|excludefuture(this.excludefuture) %}
+      {% if this.title == "Citaten" %}
+        {% include 'thumbnail_q.html' %}
+      {% else %}
+        {% include 'thumbnail.html' %}
+      {% endif %}
+      {% endfor %}
+    </div>
+    </div>
+    
+	{% if this.recent %}
+    <div class="col-lg-12" role="main">
+    <div class="col-lg-12" role="main">
+        <h2 class="recent-items" id="recent">{{ this.recent_title or "Recente items" }}</h2>
+    </div>
+    </div>
+
+    <div class="col-lg-12 thumbnail-index" role="main">
+      {% for item in this.content|recursecontent|excludefuture(this.excludefuture)|filterlatest(2048) %}
+            {% include 'thumbnail.html' %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+    
+{% include 'footer.html' %}
+
+{% endblock %}
