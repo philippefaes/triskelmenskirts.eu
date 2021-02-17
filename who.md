@@ -1,8 +1,8 @@
 ---
 title: Who am I?
 tagline: "— Philippe Faes —"
-menutitle: Wie
-layout: page
+menutitle: Who
+layout: index
 comments: False
 thumbnail: /images/double_face_lijn.jpg
 teaser: Entrepreneur and engineer - coach and pilgrim 

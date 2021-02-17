@@ -5,7 +5,7 @@
 
 {% block body %}
 
-<div class="jumbotron urubu">
+<div class="jumbotron urubu" style='background-image: url("{{this.banner}}")'>
     <div class="container text-center">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -18,10 +18,24 @@
 </div>
 
 <div class="container">
-<main>
-{{this.body}}
-</main>
-</div>
+    <div class="row">
+      <div class="content">
+        {% block content %}
+        <div class="col-lg-8 col-md-offset-2" role="main">
+          <div role="main">
+          {{this.body}}
+          </div>
+          <div style="padding-top:30px">	
+            {% if this.comments %}
+              {% include 'comments.html' %}
+            {% endif %}
+          </div>
+        </div>
+        {% endblock %}
+      </div>
+     
+    </div>
+  </div>
 
 {% include 'footer.html' %}
 
