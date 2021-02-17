@@ -41,7 +41,7 @@ code {
 /* footer */
 
 .footer {
-  margin-top: 30px;
+  margin-top: 16em;
   padding-top: 16px;
   padding-bottom: 20px;
   color: #777;
@@ -141,7 +141,7 @@ img.quote {
 
 
 .jumbotron {
-  background-image: url("/images/landschap.jpg");
+  background-image: url("/images/default_landscape.jpg");
   background-size: cover;
   color: white;
   background-color: #aaa;
