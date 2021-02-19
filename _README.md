@@ -23,7 +23,7 @@ https://gist.github.com/cobyism/4730490
 
 ### tl;dr:
 
-> git subtree push --prefix dist origin gh-pages
+> git subtree push --prefix _build origin gh-pages
 
 
 ## Build
