@@ -5,7 +5,7 @@ bootswatch: null # flatly, yeti, lumen,...
 navbar_inverse: false 
 bootstrap: 3.3.4
 # navbar_right_items: 0
-# google_analytics: UA-89086991-1
+google_analytics: G-KHFGPRJ6NH
 # linkedin_analytics: UA-89086991-1
 cname: triskelmenskirts.eu
 copyright_years: 2020-2021
@@ -17,6 +17,6 @@ reflinks:
     aboutme:
         url: https://be.linkedin.com/in/philippefaes
         title : About Philippe
-    mydice:
-        url: http://www.mydice.be
-        title : My Dice
+    # mydice:
+    #     url: http://www.mydice.be
+    #     title : My Dice
