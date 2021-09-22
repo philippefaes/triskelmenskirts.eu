@@ -1,18 +1,19 @@
 ---
-title: Triskel Men Skirts
+title: ManSkirt.eu
 tagline: liberating men
 layout: home
 banner: /images/sunset_sea.jpg
 
 content:
     - shop
+    - b
 ---
 
 ![Philippe on a tree trunk](/images/treetrunk.jpg)
 
 
 # Not just skirts
-Triskel Men Skirts is a cloting brand. But more importantly, it is a political statement. 
+ManSkirt.eu is a cloting brand. But more importantly, it is a political statement. 
 We assert the freedoms and liberties of men, and in doing so we celebrate and are allies to anybody who rallies to assert the liberties of any human.
 
 Follow on social media: 

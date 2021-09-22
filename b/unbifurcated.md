@@ -5,7 +5,7 @@ pager: True
 comments: true
 date: 2018-10-15
 author: Philippe Faes
-thumbnail: /images/fisterra.jpg
+thumbnail: /images/yoga_treetrunk.jpg
 advert: true
 ---
 
