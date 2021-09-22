@@ -1,6 +1,6 @@
 beautifulsoup4==4.10.0
 Jinja2==3.0.1
-Markdown==3.3.4
+Markdown==2.6.11
 MarkupSafe==2.0.1
 Pygments==2.10.0
 PyYAML==5.4.1
