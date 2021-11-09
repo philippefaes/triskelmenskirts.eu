@@ -29,5 +29,5 @@ Follow on social media:
   </a>
 
 
-<h1><a href="/shop/" title="Shop" style="color: brown;">Shop</a></h1>
-<h1><a href="/blog/" title="Blog" style="color: brown;">Blog</a></h1>
+<h2><a href="/shop/" title="Shop" style="color: brown;">Shop</a></h2>
+<h2><a href="/blog/" title="Blog" style="color: brown;">Blog</a></h2>
