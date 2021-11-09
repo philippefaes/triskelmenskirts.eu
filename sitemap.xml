@@ -21,23 +21,43 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://manskirt.eu/shop.html</loc>
+        <loc>http://manskirt.eu/blog/index.html</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://manskirt.eu/b/index.html</loc>
+        <loc>http://manskirt.eu/blog/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://manskirt.eu/b/</loc>
+        <loc>http://manskirt.eu/blog/unbifurcated.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+<lastmod>2021-09-22</lastmod>    </url>
+    <url>
+        <loc>http://manskirt.eu/shop/triskelshirt.html</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://manskirt.eu/b/unbifurcated.html</loc>
+        <loc>http://manskirt.eu/shop/index.html</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-<lastmod>2018-10-15</lastmod>    </url>
+    </url>
+    <url>
+        <loc>http://manskirt.eu/shop/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://manskirt.eu/shop/skirt-green.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://manskirt.eu/shop/skirt-navy.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>
