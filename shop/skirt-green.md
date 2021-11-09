@@ -1,8 +1,9 @@
 ---
-title: Shop
+title: Man Skirt - Dark Green
 tagline: coming soon
-layout: index
-banner: /images/sunset_sea.jpg
+layout: page
+thumbnail: /images/sketch1.jpg
+pager: true
 ---
 
 ![Philippe on a tree trunk](/images/sketch1.jpg)

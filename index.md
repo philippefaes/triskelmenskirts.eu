@@ -6,7 +6,8 @@ banner: /images/sunset_sea.jpg
 
 content:
     - shop
-    - b
+    - blog
+    - contact
 ---
 
 ![Philippe on a tree trunk](/images/treetrunk.jpg)
@@ -26,3 +27,7 @@ Follow on social media:
   <a href="https://www.pinterest.com/triskel_men_skirts" target="_blank" rel="noopener noreferrer">
     <i title="pinterest" class="fab fa-pinterest sf-icon sf-icon-float-left sf-icon-small" style="font-size: large;"></i>
   </a>
+
+
+<h1><a href="/shop/" title="Shop" style="color: brown;">Shop</a></h1>
+<h1><a href="/blog/" title="Blog" style="color: brown;">Blog</a></h1>

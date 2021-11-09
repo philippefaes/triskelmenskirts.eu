@@ -17,12 +17,15 @@ pager: False
     </a>
   </div>
 
-  <div class="col-sm-4">
-    <a href="call:+32494872272">
-      <h4>Call me</h4>
-      <div class="crop-quote"><img src="/images/phone.png" alt="Wat"></div>
-      <p> +32 494 87 22 72</p>
+  <div class="col-sm-4" style="text-align: center;">
+    	
+	  ManSkirt.eu is part of the Randori Group:<br/>
+	  Randori bv<br/>
+	  VAT BE 0667.586.266<br/>
+	  Aaigemstraat 123<br/>
+	  9000 Gent - Belgium
+	
     </a>
   </div>
-
+  <div class="col-sm-2" "></div>
 </div>
