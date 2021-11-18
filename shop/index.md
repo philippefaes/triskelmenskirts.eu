@@ -1,6 +1,6 @@
 ---
 title: Shop
-tagline: coming soon
+tagline: Skirts and More
 layout: index_tn
 banner: /images/sunset_sea.jpg
 content: 
@@ -12,4 +12,4 @@ content:
 
 ## Coming soon
 
-Skirts and other gear are coming soon.
+Skirts are are coming soon. We already have some T-Shirts that you might like.
