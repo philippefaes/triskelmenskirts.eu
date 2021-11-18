@@ -109,6 +109,7 @@
             <li{{context}}><a href="{{item.url}}">{{item.menutitle or item.title}}</a></li>
             {%   endif %}
             {% endfor %}
+			<li>{% include 'viewcart.html' %}</li>
           </ul>
 
         </div><!--/.nav-collapse -->

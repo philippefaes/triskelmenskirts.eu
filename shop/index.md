@@ -3,10 +3,11 @@ title: Shop
 tagline: coming soon
 layout: index_tn
 banner: /images/sunset_sea.jpg
-content: []
+content: 
 #    - skirt-green
 #    - skirt-navy
-#    - triskelshirt
+    - shirt1
+    - covsafeshirt
 ---
 
 ## Coming soon

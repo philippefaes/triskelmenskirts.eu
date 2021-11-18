@@ -2,11 +2,11 @@
 title: Shirt
 tagline: coming soon
 layout: page
-thumbnail: /images/sketch1.jpg
+thumbnail: /images/shop/shirt2/img2.png
 pager: true
 ---
 
-![Philippe on a tree trunk](/images/sketch1.jpg)
+![Shirt](/images/shop/shirt2/img1.png)
 
 ## Coming soon
 
